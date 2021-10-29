@@ -10,7 +10,7 @@ export const loadImage = () => {
 
         const func = (target: IntersectionObserverEntry) => {
             if (!target.isIntersecting) {
-                console.log('80% here')
+                console.log('90% here')
             } else {
                 console.log('out of viewport')
             }
